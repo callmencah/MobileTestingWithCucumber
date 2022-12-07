@@ -7,7 +7,7 @@ public class PageHome {
     By btn_form = By.xpath("//android.widget.Button[@content-desc='Forms']");
     By page_home = By.xpath("//android.widget.ScrollView[@content-desc='Home-screen']");
     By btn_webview = By.xpath("//android.widget.Button[@content-desc=\"Webview\"]");
-
+    By btn_drag = By.xpath("//android.widget.Button[@content-desc=\"Drag\"]");
 
 
     public By getBtn_swipe() {
@@ -24,5 +24,9 @@ public class PageHome {
 
     public By getBtn_webview() {
         return btn_webview;
+    }
+
+    public By getBtn_drag() {
+        return btn_drag;
     }
 }

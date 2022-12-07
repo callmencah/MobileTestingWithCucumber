@@ -31,4 +31,6 @@ public class Home extends Hooks {
         driver.findElement(PageHome.getBtn_webview()).click();
     }
 
+    @When("user access Drag page")
+    public void user_access_drag_page() { driver.findElement(PageHome.getBtn_drag()).click();}
 }

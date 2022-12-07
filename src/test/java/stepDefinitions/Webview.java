@@ -2,7 +2,6 @@ package stepDefinitions;
 import io.cucumber.java.en.When;
 import objectRepository.PageWebview;
 
-
 public class Webview extends Hooks{
 
     PageWebview PageWebview = new PageWebview();
